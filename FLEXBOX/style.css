@@ -1,0 +1,73 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.flex-container{
+    width: 315px;
+    height: 200px;
+    min-width: 300px;
+    background-color: #8e44ad;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 15px;
+    
+}
+
+
+.container{
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+}
+    
+.visa{
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+   margin-top: -64px;
+   padding-left: 190px; 
+    
+}
+
+img.chip{
+    width: 50px;
+    padding-top: 25px;
+    margin-left: -5px;
+    margin-bottom: -1px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 0px;
+    font-family: monospace;
+    margin-top: 0px;
+    padding-top: -20px;
+   
+    
+}
+.number{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 0%;
+    font-family: monospace;
+    margin: 1%;
+}
+
+.valid{
+    font-size: 9px;
+    font-family: 'Tahoma', sans-serif;
+    margin-top: 11px;
+}
+
+.date{
+    font-family: 'Tahoma', sans-serif;
+    margin-top: -13px;
+}
+
+

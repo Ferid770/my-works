@@ -1,0 +1,76 @@
+body{
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    color: aqua;
+}
+
+h1{
+    color: rgb(240, 107, 11);
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2{
+    color: rgb(240, 107, 11);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+span.down{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+     border-color: black;
+     border-style: groove;
+     border-radius: 30px;
+     background-color: rgb(241, 158, 3);
+     
+}
+
+span.a{
+ text-align: center;  
+
+}
+
+a{
+    color: white;
+    
+    
+    padding-top: 15px;
+}
+
+img{
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+
+div{
+    margin-left: 350px;
+}
+
+div.span{
+    margin-right: 100px;
+    border-right: 100px;
+    border-radius: 30px;
+    
+}
+
+
+p{
+    margin: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
