@@ -47,7 +47,7 @@ a{
     position: relative;
     width: 45px;
     height: 25%;
-    margin-right: 30spx;
+    margin-right: 30px;
     
 
     
@@ -155,12 +155,13 @@ footer{
 
 .scroll{
     background-color: black;
-    border-radius: 50%;
+    border-radius: 60%;
     color: azure;
     position: fixed;
     right: 20px;
     bottom:20px;
     padding: 15px;
     font-size: 25px;
+    cursor: pointer;
 }
 
