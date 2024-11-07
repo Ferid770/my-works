@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(./img/beautiful-nature-mountain-scenery-with-flowers-free-photo.webp);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 0 , auto
+
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    color: azure;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.header{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.countainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo{
+    text-align: end;
+    margin: 100px;
+    
+   
+}
+
+.mainmenu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+.menu{
+    padding-top: 5%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.mark{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: end;
+    cursor: pointer;
+}
+
+
+ol{
+    list-style: none;
+}
+
+
+li img{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+
+
+.welcome{
+    color: azure;
+    display: flex;
+    
+    
+}
+
+h4{
+    margin-left: 360px;
+}
+
+.text{
+    color: azure;
+    display: flex;
+   justify-content: space-around;
+   position: absolute;
+   top: 250px;
+   left:360px ;
+}
+
+p{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    top: -100px;
+    left: 7px;
+}
+
+
+
+.start{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   margin-top: 200px;
+   cursor: pointer;
+}
+
+.project{
+   border:4px solid white;
+    color: azure;
+  padding-block: 25px;
+  padding-inline: 45px;
+  
+}
+.more{
+    border:4px solid white;
+    color: azure;
+  padding-block: 25px;
+  padding-inline: 45px; 
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
