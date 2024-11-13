@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #1805eb 0%, #ee3507 100%);
+}
+
+main {
+  width: 60%;
+  margin: 150px auto;
+}
+
+.grid-container {
+  width: 80%;
+  padding: 5px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 2px solid;
+  justify-content: center;
+  row-gap: 5px;
+  column-gap: 5px;
+  grid-template-columns: repeat(auto-fit);
+  background: linear-gradient(to left, black 20%, grey 50%);
+}
+
+.grid-item {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(122, 222, 16);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item1 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-item9 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(8, 84, 128);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid-item11 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(237, 4, 101);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.grid-item2 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(157, 9, 117);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item3 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(3, 42, 89);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item4 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(160, 190, 10);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item5 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(12, 194, 179);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item6 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(210, 242, 4);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+.grid-item7 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(69, 210, 30);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item8 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(12, 15, 203);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.grid-item10 {
+  padding: 30px;
+  font-size: 30px;
+  background-color: rgb(206, 26, 17);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+img {
+ text-align: center;
+}
+
+
+h2{
+  margin-bottom: 20px;
+  color: rgb(245, 245, 220);
+}
+
+
+h4{
+  margin-top: 20px;
+  color: beige;
+}
